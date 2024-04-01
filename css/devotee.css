@@ -3,6 +3,8 @@
   src:
     url('../fonts/Sennaar/Devotee.woff2') format('woff2'),
     url('../fonts/Sennaar/Devotee.woff') format('woff'),
+    url('../fonts/Sennaar/Devotee.tff') format('tff'),
+
 }
 
 
@@ -119,8 +121,10 @@ td {
 .under {
   margin-top: 20px;
 
+  font-size: 10px;
   font-family: 'Skranji';
   color: #ccc;
+  
 }
 
 .note {
