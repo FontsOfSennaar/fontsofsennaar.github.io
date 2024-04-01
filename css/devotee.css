@@ -5,22 +5,20 @@
     url('../fonts/Sennaar/Devotee.woff') format('woff'),
 }
 
-@font-face {
-  font-family: 'Superior Mono';
-  src:
-    url('../fonts/LTSuperiorMono/LTSuperiorMono-Regular.otf') format('otf'),
-}
 
 @font-face {
   font-family: 'Skranji';
   src:
     url('../fonts/Skranji/Skranji-Regular.woff2') format('woff2'),
+    url('../fonts/Skranji/Skranji-Regular.woff') format('woff'),
+
 }
 
 @font-face {
   font-family: 'Skranji Bold';
   src:
     url('../fonts/Skranji/Skranji-Bold.woff2') format('woff2'),
+    url('../fonts/Skranji/Skranji-Bold.woff') format('woff'),
 }
 
 body {
