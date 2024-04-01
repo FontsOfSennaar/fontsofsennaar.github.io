@@ -45,15 +45,16 @@ body {
   user-select: none;
 
   /* 设置背景图片 */
-  background-image: url('../img/bg2.jpeg'); 
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: top left; 
-  background-attachment: fixed; 
+  background-image: url('../img/bg2.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-attachment: fixed;
 }
 
 .content {
-  background-color: rgba(255, 255, 255, 0.9); /* 添加白色背景并调整透明度 */
+  background-color: rgba(255, 255, 255, 0.9);
+  /* 添加白色背景并调整透明度 */
 }
 
 
@@ -82,8 +83,10 @@ h1 {
 
 table {
   border-collapse: collapse;
-  border-radius: 10px; /* 对整个表格设置圆角 */
-  overflow: hidden; /* 避免边角溢出 */
+  border-radius: 10px;
+  /* 对整个表格设置圆角 */
+  overflow: hidden;
+  /* 避免边角溢出 */
 
   width: 95%;
   table-layout: fixed;
@@ -140,4 +143,20 @@ td {
 
 
 
+/* 移除第一行和最后一行的边框 */
+table tr:first-child th,
+table tr:first-child td,
+table tr:last-child th,
+table tr:last-child td {
+  border-top: none;
+  border-bottom: none;
+}
 
+/* 移除第一列和最后一列的边框 */
+table tr th:first-child,
+table tr td:first-child,
+table tr th:last-child,
+table tr td:last-child {
+  border-left: none;
+  border-right: none;
+}
