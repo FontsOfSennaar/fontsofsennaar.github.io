@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Devotee';
+  src:
+    url('../fonts/Sennaar/Devotee.woff2') format('woff2'),
+    url('../fonts/Sennaar/Devotee.woff') format('woff'),
+}
+
+@font-face {
+  font-family: 'Superior Mono';
+  src:
+    url('../fonts/LTSuperiorMono/LTSuperiorMono-Regular.otf') format('otf'),
+}
+
+@font-face {
+  font-family: 'Skranji';
+  src:
+    url('../fonts/Skranji/Skranji-Regular.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'Skranji Bold';
+  src:
+    url('../fonts/Skranji/Skranji-Bold.woff2') format('woff2'),
+}
+
+body {
+  letter-spacing: 0;
+  text-align: center;
+
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  /* 水平居中 */
+  align-items: center;
+
+  /* 禁止鼠标左键选中文本 */
+  /* Chrome, Safari, Opera */
+  -webkit-user-select: none;
+  /* Firefox */
+  -moz-user-select: none;
+  /* IE 10+ */
+  -ms-user-select: none;
+  /* 其他浏览器 */
+  user-select: none;
+
+  /* 设置背景图片 */
+  background-image: url('../img/bg2.jpeg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: top left; 
+  background-attachment: fixed; 
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.9); /* 添加白色背景并调整透明度 */
+}
+
+
+h1 {
+  padding-top: 20pt;
+
+  font-family: 'Skranji Bold';
+  color: #EAC83C;
+  /* font-weight: normal; */
+}
+
+.title {
+  font-size: 30pt;
+  font-family: 'Skranji Bold';
+  color: #37203C;
+  /* font-weight: bold; */
+}
+
+.intro {
+  color: #8F0D00;
+  font-family: 'Skranji';
+  font-weight: lighter;
+  font-size: 20pt;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 10px; /* 对整个表格设置圆角 */
+  overflow: hidden; /* 避免边角溢出 */
+
+  width: 95%;
+  table-layout: fixed;
+
+  margin: 0 auto;
+  margin-bottom: 20pt;
+}
+
+th {
+  font-family: 'Skranji';
+  font-size: 20pt;
+  font-weight: lighter;
+
+  background-color: #f2f2f2;
+}
+
+td {
+  font-family: 'Devotee';
+  font-size: 30pt;
+  font-variant-ligatures: normal;
+  background-color: #ffffff;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+
+  width: auto;
+}
+
+.note {
+  font-family: 'Skranji';
+  font-weight: lighter;
+  font-size: 15pt;
+
+  margin-right: 2.5%;
+  text-align: right;
+}
+
+/* 扁平风格滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #999;
+}
+
+
+
+
