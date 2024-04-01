@@ -118,6 +118,13 @@ td {
   width: auto;
 }
 
+.under {
+  margin-top: 20pt;
+
+  font-family: 'Skranji';
+  color: #ccc;
+}
+
 .note {
   font-family: 'Skranji';
   font-weight: lighter;
@@ -125,6 +132,13 @@ td {
 
   margin-right: 2.5%;
   text-align: right;
+}
+
+/* 去除超链接的下划线 */
+a {
+  text-decoration: none;
+
+  color:lightslategrey;
 }
 
 /* 扁平风格滚动条样式 */
