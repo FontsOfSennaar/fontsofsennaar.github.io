@@ -124,7 +124,11 @@ td {
 .under {
   margin-top: 20px;
 
+<<<<<<< HEAD
   font-size: 13px;
+=======
+  font-size: 15px;
+>>>>>>> 5f738e7dd7d0d4cac25bb6d9845705054bde40f5
   font-family: 'Skranji';
   color: #ccc;
   
