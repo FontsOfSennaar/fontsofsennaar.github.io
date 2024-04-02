@@ -69,6 +69,20 @@ h1 {
   /* font-weight: normal; */
 }
 
+.icons {
+  text-align: right;
+
+  font-size: 30px;
+
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.icon {
+margin-left: 15px;
+}
+
 .title {
   font-size: 30px;
   font-family: 'Skranji Bold';
@@ -127,7 +141,7 @@ td {
   font-size: 13px;
   font-family: 'Skranji';
   color: #ccc;
-  
+
 }
 
 .note {
@@ -143,7 +157,7 @@ td {
 a {
   text-decoration: none;
 
-  color:lightslategrey;
+  color: lightslategrey;
 }
 
 /* 扁平风格滚动条样式 */

@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   elementsWithId.forEach(function (element) {
     handleMouseEvents(element, element.textContent, element.id);
-    console.log(element.id);
   });
 });
 
