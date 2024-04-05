@@ -2,7 +2,7 @@
   font-family: 'Devotee';
   src:
     url('../fonts/Sennaar/Devotee.woff') format('woff'),
-    url('https://github.com/FontsOfSennaar/fontsofsennaar.github.io/blob/main/fonts/Sennaar/Devotee.ttf') format('truetype'),
+    url('../fonts/Sennaar/Devotee.ttf') format('truetype'),
     url('../fonts/Sennaar/Devotee.woff2') format('woff2'),
 }
 
@@ -18,7 +18,7 @@
 @font-face {
   font-family: 'Skranji Bold';
   src:
-    url('https://github.com/FontsOfSennaar/fontsofsennaar.github.io/blob/main/fonts/Skranji/Skranji-Bold.woff') format('woff'),
+    url('../fonts/Skranji/Skranji-Bold.woff') format('woff'),
     url('../fonts/Skranji/Skranji-Bold.ttf') format('truetype'),
     url('../fonts/Skranji/Skranji-Bold.woff2') format('woff2'),
 
@@ -63,7 +63,7 @@ body {
 h1 {
   padding-top: 20px;
 
-  font-family: 'Skranji Bold';
+  font-family: 'Skranji Bold' !important;
   color: #EAC83C;
   /* font-weight: normal; */
 }
@@ -83,14 +83,14 @@ h1 {
 
 .title {
   font-size: 30px;
-  font-family: 'Skranji Bold';
+  font-family: 'Skranji Bold' !important;
   color: #37203C;
   /* font-weight: bold; */
 }
 
 .intro {
   color: #8F0D00;
-  font-family: 'Skranji';
+  font-family: 'Skranji' !important;
   font-weight: lighter;
   font-size: 20px;
   text-align: center;
@@ -111,7 +111,7 @@ table {
 }
 
 th {
-  font-family: 'Skranji';
+  font-family: 'Skranji' !important;
   font-size: 20px;
   font-weight: lighter;
 
@@ -119,7 +119,7 @@ th {
 }
 
 td {
-  font-family: 'Devotee';
+  font-family: 'Devotee' !important;
   font-size: 30px;
   font-variant-ligatures: normal;
   background-color: #ffffff;
@@ -137,13 +137,13 @@ td {
   margin-top: 20px;
 
   font-size: 13px;
-  font-family: 'Skranji';
+  font-family: 'Skranji' !important;
   color: #ccc;
 
 }
 
 .note {
-  font-family: 'Skranji';
+  font-family: 'Skranji' !important;
   font-weight: lighter;
   font-size: 15px;
 
