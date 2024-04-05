@@ -26,10 +26,10 @@ var SkranjiBold = new FontFaceObserver('Skranji Bold');
 
 
 Promise.all([Devotee.load(), Skranji.load(), SkranjiBold.load()]).then(function () {
-  console.log('all loaded');
+  console.log('Fonts all loaded');
 }, function () {
   console.log('Font is not available');
-  alert('Unable to load fonts!')
+  alert('Unable to load fonts!');
 }
 );
 

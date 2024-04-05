@@ -29,6 +29,7 @@
 body {
   letter-spacing: 0;
   text-align: center;
+  font-display: optional;
 
   margin: 0;
 
