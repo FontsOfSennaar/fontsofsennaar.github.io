@@ -19,6 +19,19 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+//Font loader
+var Devotee = new FontFaceObserver('Devotee');
+var Skranji = new FontFaceObserver('Skranji');
+var SkranjiBold = new FontFaceObserver('Skranji Bold');
+
+
+Promise.all([Devotee.load(), Skranji.load(), SkranjiBold.load()]).then(function () {
+  console.log('all loaded');
+}, function () {
+  console.log('Font is not available');
+  alert('Unable to load fonts!')
+}
+);
 
 
 
