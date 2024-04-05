@@ -29,9 +29,7 @@ Promise.all([Devotee.load(), Skranji.load(), SkranjiBold.load()]).then(function 
   console.log('Fonts all loaded');
 }, function () {
   console.log('Font is not available');
-  alert('Unable to load fonts!');
   var newPageUrl = "https://github.com/FontsOfSennaar/fontsofsennaar.github.io";
-  // 使用 window.location.href 属性进行跳转
   window.location.href = newPageUrl;
 }
 );
