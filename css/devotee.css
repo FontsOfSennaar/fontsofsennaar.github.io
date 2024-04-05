@@ -3,24 +3,26 @@
   src:
     url('../fonts/Sennaar/Devotee.woff') format('woff'),
     url('../fonts/Sennaar/Devotee.ttf') format('truetype'),
-    url('../fonts/Sennaar/Devotee.woff2') format('woff2'),
+    url('../fonts/Sennaar/Devotee.woff2') format('woff2');
 }
 
 
 @font-face {
   font-family: 'Skranji';
   src:
+    url('../fonts/Skranji/Skranji.svg') format('svg'),
     url('../fonts/Skranji/Skranji.woff') format('woff'),
     url('../fonts/Skranji/Skranji.ttf') format('truetype'),
-    url('../fonts/Skranji/Skranji.woff2') format('woff2'),
+    url('../fonts/Skranji/Skranji.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Skranji Bold';
   src:
+    url('../fonts/Skranji/Skranji-Bold.svg') format('svg'),
     url('../fonts/Skranji/Skranji-Bold.woff') format('woff'),
     url('../fonts/Skranji/Skranji-Bold.ttf') format('truetype'),
-    url('../fonts/Skranji/Skranji-Bold.woff2') format('woff2'),
+    url('../fonts/Skranji/Skranji-Bold.woff2') format('woff2');
 
 }
 
