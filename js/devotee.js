@@ -21,16 +21,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // Font loader
 var Devotee = new FontFaceObserver('Devotee');
-var Skranji = new FontFaceObserver('Skranji');
-var SkranjiBold = new FontFaceObserver('Skranji Bold');
+// var Skranji = new FontFaceObserver('Skranji');
+// var SkranjiBold = new FontFaceObserver('Skranji Bold');
 
 
-Promise.all([Devotee.load(), Skranji.load(), SkranjiBold.load()]).then(function () {
-  alert('Fonts all loaded');
+Devotee.load().then(function () {
+  console.log('Font is available');
 }, function () {
-  alert('Font is not available');
-}
-);
+  console.log('Font is not available');
+});
 
 
 

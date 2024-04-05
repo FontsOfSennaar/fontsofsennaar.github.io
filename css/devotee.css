@@ -16,7 +16,7 @@
     url('../fonts/Skranji/Skranji.woff2') format('woff2');
 } */
 
-@font-face {
+/* @font-face {
   font-family: 'Skranji Bold';
   src:
     url('../fonts/Skranji/Skranji-Bold.svg') format('svg'),
@@ -24,7 +24,7 @@
     url('../fonts/Skranji/Skranji-Bold.ttf') format('truetype'),
     url('../fonts/Skranji/Skranji-Bold.woff2') format('woff2');
 
-}
+} */
 
 body {
   letter-spacing: 0;
@@ -84,9 +84,12 @@ h1 {
 }
 
 .title {
-  font-size: 30px;
+  font-size: 40px;
   font-family: 'Skranji Bold' !important;
   color: #37203C;
+
+  margin-top: 10px;
+  margin-bottom: 20px;
   /* font-weight: bold; */
 }
 
