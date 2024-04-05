@@ -10,9 +10,9 @@
 @font-face {
   font-family: 'Skranji';
   src:
-    url('../fonts/Skranji/Skranji-Regular.woff') format('woff'),
-    url('../fonts/Skranji/Skranji-Regular.ttf') format('truetype'),
-    url('../fonts/Skranji/Skranji-Regular.woff2') format('woff2'),
+    url('../fonts/Skranji/Skranji.woff') format('woff'),
+    url('../fonts/Skranji/Skranji.ttf') format('truetype'),
+    url('../fonts/Skranji/Skranji.woff2') format('woff2'),
 }
 
 @font-face {
