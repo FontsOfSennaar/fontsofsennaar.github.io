@@ -26,11 +26,9 @@ var SkranjiBold = new FontFaceObserver('Skranji Bold');
 
 
 Promise.all([Devotee.load(), Skranji.load(), SkranjiBold.load()]).then(function () {
-  console.log('Fonts all loaded');
+  alert('Fonts all loaded');
 }, function () {
-  console.log('Font is not available');
-  var newPageUrl = "https://github.com/FontsOfSennaar/fontsofsennaar.github.io";
-  window.location.href = newPageUrl;
+  alert('Font is not available');
 }
 );
 
