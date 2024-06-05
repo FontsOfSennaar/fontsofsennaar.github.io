@@ -1,4 +1,4 @@
-# fontsofsennaar.github.io
+# Fonts of Sennaar
 I'm currently developing fonts that allows users to input glyphs from   ["Chants of Sennaar"](https://www.focus-entmt.com/en/games/chants-of-sennaar).
 I've completed the Devotee font, which is based on Superior Mono, an open-source font created by Daniel Lyons.
 I changed certain ligatures into in-game glyphs, thereby allowing users to input them via 'typing'. Before using the font, please make sure that font ligatures are enabled. 
