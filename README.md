@@ -7,4 +7,6 @@ You can check out the glyphs and their corresponding inputs [here](https://fonts
 I'll continue working on other in-game languages.
 Since I lack experience in both font and website development, any advice would be greatly appreciated!
 
+*Disclaimer: I do not own the copyright to any of the glyphs. All rights belong to the developer [Rundisc](https://www.rundisc.io/).
+
 
